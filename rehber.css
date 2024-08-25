@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rehber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    opacity: .8;
+    margin-top: 5%;
+}
+
+.formclass {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: .8;
+    margin-top: 1%;
+}
+.inp {
+    min-width: 400px;
+    max-width: 960px;
+    outline: rgb(120, 210, 238);
+    height: 35px;
+    padding: 3px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: larger;
+    border-radius: 5px;
+}
+.divi {
+    display:inline;
+}
+.inpButton {
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.inpButton:hover {
+    background-color: rgba(146, 139, 139, 0.466);
+    color: rgba(255, 255, 255, 0.699);
+}
+.tablo {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: .8;
+    margin-top: 40px;
+}
+tr:hover {
+    background-color: rgba(146, 139, 139, 0.466);
+}
+th {
+    height: 30px;
+    padding: 10px;
+}
+td {
+    height: 20px;
+    padding: 10px;
+}
+
+.inform {
+    min-width: 400px;
+    max-width: 960px;
+    height: 35px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+.inform-success {
+    border: 1px solid green;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: green;
+    padding-left: 10px;
+}
+.inform-error {
+    border: 1px solid red;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: red;
+    padding-left: 10px;
+}
+.btnofedits {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+}
+.btnedit {
+    border: 1px solid green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    opacity: .8;
+    color: green;
+    transition: .2s all;
+}
+.btndelete {
+    border: 1px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    opacity: .8;
+    color: red;
+    transition: .2s all;
+}
+.btnedit:hover {
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+}
+.btndelete:hover {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}
